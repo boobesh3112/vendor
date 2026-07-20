@@ -346,3 +346,12 @@ app.get('/api/stats', (req, res) => {
 app.listen(PORT, () => {
   console.log(`VMS Backend server running on http://localhost:${PORT}`);
 });
+
+// If a frontend build exists, serve it as static files so backend can run standalone
+const distPath = path.join(__dirname, '..', 'frontend', 'dist');
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(distPath, 'index.html'));
+  });
+}
