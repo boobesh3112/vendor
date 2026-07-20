@@ -1,0 +1,217 @@
+{
+  "vendors": [
+    {
+      "id": "v-1",
+      "name": "Apex Tech Solutions",
+      "contactPerson": "Alex Rivera",
+      "email": "alex@apextech.com",
+      "phone": "+1 (555) 019-2834",
+      "category": "IT",
+      "status": "Active",
+      "rating": 4.6,
+      "address": "100 Innovation Way, Suite 400, San Jose, CA",
+      "onboardingDate": "2026-01-15T08:30:00.000Z",
+      "onboardingStep": 4
+    },
+    {
+      "id": "v-2",
+      "name": "Swift Logistics Group",
+      "contactPerson": "Sarah Jenkins",
+      "email": "s.jenkins@swiftlogistics.com",
+      "phone": "+1 (555) 048-1122",
+      "category": "Logistics",
+      "status": "Active",
+      "rating": 4.2,
+      "address": "450 Transport Blvd, Chicago, IL",
+      "onboardingDate": "2026-02-10T10:15:00.000Z",
+      "onboardingStep": 4
+    },
+    {
+      "id": "v-3",
+      "name": "Vanguard Consulting",
+      "contactPerson": "David Chen",
+      "email": "dchen@vanguard.co",
+      "phone": "+1 (555) 098-7654",
+      "category": "Consulting",
+      "status": "Pending",
+      "rating": 0.0,
+      "address": "888 Market St, San Francisco, CA",
+      "onboardingDate": "2026-07-18T14:45:00.000Z",
+      "onboardingStep": 2
+    },
+    {
+      "id": "v-4",
+      "name": "EcoClean Facilities",
+      "contactPerson": "Maria Rodriguez",
+      "email": "m.rodriguez@ecoclean.com",
+      "phone": "+1 (555) 034-5566",
+      "category": "Facilities",
+      "status": "Suspended",
+      "rating": 3.4,
+      "address": "12 Pine St, Austin, TX",
+      "onboardingDate": "2025-11-05T09:00:00.000Z",
+      "onboardingStep": 4
+    },
+    {
+      "id": "v-5",
+      "name": "Nova Marketing Agency",
+      "contactPerson": "Emily Watson",
+      "email": "emily@novamarketing.io",
+      "phone": "+1 (555) 076-4433",
+      "category": "Marketing",
+      "status": "Active",
+      "rating": 4.8,
+      "address": "77 Broadway, New York, NY",
+      "onboardingDate": "2026-04-01T11:00:00.000Z",
+      "onboardingStep": 4
+    }
+  ],
+  "contracts": [
+    {
+      "id": "c-1",
+      "vendorId": "v-1",
+      "title": "Cloud Infrastructure Management",
+      "value": 150000,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "status": "Active"
+    },
+    {
+      "id": "c-2",
+      "vendorId": "v-2",
+      "title": "Global Distribution Agreement",
+      "value": 85000,
+      "startDate": "2026-03-01",
+      "endDate": "2027-03-01",
+      "status": "Active"
+    },
+    {
+      "id": "c-3",
+      "vendorId": "v-5",
+      "title": "Q3 Digital Campaign",
+      "value": 45000,
+      "startDate": "2026-07-01",
+      "endDate": "2026-10-01",
+      "status": "Active"
+    },
+    {
+      "id": "c-4",
+      "vendorId": "v-4",
+      "title": "Office Sanitation Services",
+      "value": 24000,
+      "startDate": "2025-11-01",
+      "endDate": "2026-11-01",
+      "status": "Under Review"
+    }
+  ],
+  "performance": [
+    {
+      "id": "p-1",
+      "vendorId": "v-1",
+      "quality": 5,
+      "delivery": 4,
+      "communication": 5,
+      "cost": 4,
+      "compliance": 5,
+      "date": "2026-06-15",
+      "notes": "Excellent performance overall. Prompt response to server incidents and great communication."
+    },
+    {
+      "id": "p-2",
+      "vendorId": "v-2",
+      "quality": 4,
+      "delivery": 4,
+      "communication": 4,
+      "cost": 4,
+      "compliance": 5,
+      "date": "2026-05-20",
+      "notes": "Consistent delivery, but occasionally runs into customs delays which need better notice."
+    },
+    {
+      "id": "p-3",
+      "vendorId": "v-4",
+      "quality": 3,
+      "delivery": 3,
+      "communication": 4,
+      "cost": 4,
+      "compliance": 3,
+      "date": "2026-04-10",
+      "notes": "Substandard cleaning in secondary building. Compliance documentation was submitted late."
+    },
+    {
+      "id": "p-4",
+      "vendorId": "v-5",
+      "quality": 5,
+      "delivery": 5,
+      "communication": 5,
+      "cost": 4,
+      "compliance": 5,
+      "date": "2026-07-02",
+      "notes": "Outstanding creative deliverables. Exceeded registration targets by 20% on the launch event."
+    }
+  ],
+  "invoices": [
+    {
+      "id": "i-1",
+      "vendorId": "v-1",
+      "amount": 12500,
+      "issueDate": "2026-07-01",
+      "dueDate": "2026-07-31",
+      "status": "Paid",
+      "description": "Monthly Cloud Managed Services - June 2026"
+    },
+    {
+      "id": "i-2",
+      "vendorId": "v-2",
+      "amount": 7800,
+      "issueDate": "2026-07-05",
+      "dueDate": "2026-08-05",
+      "status": "Pending",
+      "description": "Logistics & Freight Charges - Shipment ID 98234"
+    },
+    {
+      "id": "i-3",
+      "vendorId": "v-5",
+      "amount": 15000,
+      "issueDate": "2026-07-10",
+      "dueDate": "2026-08-10",
+      "status": "Pending",
+      "description": "Q3 Digital Campaign Initial Retainer"
+    },
+    {
+      "id": "i-4",
+      "vendorId": "v-4",
+      "amount": 2000,
+      "issueDate": "2026-05-01",
+      "dueDate": "2026-06-01",
+      "status": "Overdue",
+      "description": "Special Deep Cleaning - Admin Block"
+    }
+  ],
+  "activities": [
+    {
+      "id": "a-1",
+      "timestamp": "2026-07-18T14:45:00.000Z",
+      "type": "vendor_onboarded",
+      "description": "Onboarding initiated for Vanguard Consulting (v-3)."
+    },
+    {
+      "id": "a-2",
+      "timestamp": "2026-07-10T10:00:00.000Z",
+      "type": "invoice_paid",
+      "description": "Invoice i-1 paid to Apex Tech Solutions (v-1) for $12,500.00."
+    },
+    {
+      "id": "a-3",
+      "timestamp": "2026-07-02T16:30:00.000Z",
+      "type": "performance_rated",
+      "description": "Performance rated 4.8/5 for Nova Marketing Agency (v-5)."
+    },
+    {
+      "id": "a-4",
+      "timestamp": "2026-07-01T09:00:00.000Z",
+      "type": "contract_added",
+      "description": "New contract 'Q3 Digital Campaign' approved for Nova Marketing Agency (v-5)."
+    }
+  ]
+}

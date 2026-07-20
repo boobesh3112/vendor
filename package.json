@@ -1,0 +1,14 @@
+{
+  "name": "vendor-management-root",
+  "version": "1.0.0",
+  "description": "Root orchestrator for Premium Vendor Management System",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "start-backend": "npm start --prefix backend",
+    "start-frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
