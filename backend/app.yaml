@@ -1,0 +1,4 @@
+service: backend
+runtime: nodejs18
+env: standard
+entrypoint: npm start
